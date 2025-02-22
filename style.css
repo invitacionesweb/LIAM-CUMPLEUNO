@@ -260,6 +260,55 @@ main p {
 .galeria2 img {
     width: 25vw;
 }
+.DRESSCODE {
+    text-align: center;
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    margin: 0;
+    padding: 20PX 0;
+}
+.DRESSCODE, H2, P {
+    margin: 0;
+}
+.DRESSCODE ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+    padding: 10px 0 0 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.DRESSCODE ul li {
+    
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.DRESSCODE .li1 {
+    background-color: #1822A6;
+
+}
+.DRESSCODE .li2 {
+    background-color: #5D9FF8;
+
+}
+.DRESSCODE .li3 {
+    background-color: #4DDBDF;
+
+}
+.DRESSCODE .li4 {
+    background-color: #FBF6D6;
+
+}
+.DRESSCODE .li5 {
+    background-color: #FFFFFF;
+
+}
 .segundo {
     width: 100%;
     height: 60vh;
